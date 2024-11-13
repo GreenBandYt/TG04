@@ -15,7 +15,7 @@ main_menu = ReplyKeyboardMarkup(
 links_menu = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="📰 Новости", url="https://dzen.ru/news?utm_referrer=dzen.ru")],
-        [InlineKeyboardButton(text="🎵 Музыка", url="https://dzen.ru/search?query=музыка&sid=166213224218790471")],
+        [InlineKeyboardButton(text="🎵 Музыка", url="https://spotify.com/")],
         [InlineKeyboardButton(text="📹 Видео", url="https://dzen.ru/video")]
     ]
 )
